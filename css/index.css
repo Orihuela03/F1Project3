@@ -1,0 +1,186 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+#header {
+  display: flex;
+  top: 0;
+  height: 56px;
+  width: 100vw;
+  background-color: red;
+  z-index: 2500;
+  text-align: center;
+
+}
+
+.header-content {
+  margin-top: 1em;
+  height: 56px;
+  width: 100vw;
+}
+
+.header-content a {
+  text-decoration: none;
+  color: #1A1B26;
+  font-weight: bold;
+  margin-left: 2em;
+}
+
+.principal-title {
+  margin-top: 2em;
+  text-align: center;
+}
+
+.title {
+  margin-top: 3em;
+  text-align: center;
+  color: red;
+  font-style: italic;
+
+}
+
+#info-f1 {
+  margin-top: 2em;
+  display: flex;
+  align-items: center;
+  margin-right: 2em;
+  margin-left: 2em;
+}
+
+#info-f1 p {
+  margin-right: 20px;
+  text-align: justify;
+  margin-left: 1em;
+  text-align: justify;
+}
+
+#info-f1 img {
+  height: 30vh;
+}
+
+.title {
+  margin-top: 5em;
+  text-align: center;
+  color: red;
+  font-style: italic;
+
+}
+
+#bootstrap-container {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  width: 100%;
+}
+
+.title-gallery {
+  width: 100vw;
+  height: 56px;
+  color: red;
+}
+
+.left-side {
+  border-style: double;
+  border-radius: 12px;
+  padding: 1em;
+  margin-top: 1em;
+  background-color: lightcoral;
+}
+
+.left-side:hover {
+  border-style: initial;
+}
+
+#model-error {
+  color: red;
+  visibility: hidden;
+}
+
+#brand-error {
+  color: red;
+  visibility: hidden;
+}
+
+#footer {
+  background-color: red;
+  display: flex;
+  width: 100%;
+}
+
+#left {
+  margin-left: 2em;
+  text-align: left;
+  width: 40vw;
+}
+
+#left p {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#left a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#center {
+  text-align: center;
+  width: 40vw;
+}
+
+#center p {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#center a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+#right i {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#center a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+i:hover {
+  font-size: 20px;
+  transition: 1.5s;
+}
+
+#right a {
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 1em;
+  text-decoration: none;
+}
+
+#right a:hover {
+  color: black;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 1.5s;
+  text-decoration: none;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 900px) {}
